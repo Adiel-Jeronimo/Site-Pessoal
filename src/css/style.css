@@ -146,6 +146,7 @@ nav {
     padding-bottom: 95px;
     padding-left: 136px;
     
+    
 
     h1 {
         margin-bottom: 95px;
@@ -158,17 +159,19 @@ nav {
         gap: 57px;
         overflow-x: scroll;
         overflow-y: hidden;
+        width: 100%;
+        padding: 0 65px 30px 0;
     }
 }
 
 .projetos {
-    width: auto;
-    height: auto;
     display: flex;
     flex-direction: column;
     background-color: #3C3C3C;
     border: 6px solid #00000025;
     border-radius: 24px;
+    min-width: 400px;
+    align-items: flex-start;
     
     
     h2 {
@@ -183,12 +186,18 @@ nav {
     }
 }
 
+.btn-footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
 .btn-github {
     display: flex;
     width: 205px;
     height: 47px;
     background-color: #FF9E44;
-    margin-left: 50px;
     border-radius: 24px;
     font-size: 1.3rem;
     align-items: center;
@@ -205,8 +214,8 @@ nav {
 }
 
 .conteudo {
-    width: 355px;
-    height: 134px;
+    width: 100%;
+    flex: 1;
 }
 
 
