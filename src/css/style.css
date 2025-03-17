@@ -41,7 +41,7 @@ nav {
     }
 }
 
-#homeSection {
+#home {
     display: flex;
     justify-content: space-between;
     background-color: #E0B7B1;
@@ -71,7 +71,7 @@ nav {
     }
 }
 
-#aboutSection {
+#sobreMim {
     background-color: #E07113;
     display: flex;
 
@@ -95,13 +95,14 @@ nav {
     }
 
     #fotoSobreMim {
-        background-image: url("../imagem/foto2.jpeg");
+        background-image: url("../imagem/foto_familia2.jpeg");
         background-size: cover;
         width: 40vw;
+        padding-right: 15px;
     }
 }
 
-#skillsSection {
+#habilidades {
     background-image: url("../imagem/fundo-programacao.jpg");
     background-size: cover;
 
@@ -138,7 +139,7 @@ nav {
     }
 }
 
-#sessaoProjetos {
+#projetos {
     background-color: #3C3C3C;
     display: flex;
     flex-direction: column;
@@ -164,7 +165,7 @@ nav {
     }
 }
 
-.projetos {
+.conteudo-projetos {
     display: flex;
     flex-direction: column;
     background-color: #3C3C3C;
@@ -213,13 +214,13 @@ nav {
     }
 }
 
-.conteudo {
+.descricao {
     width: 100%;
     flex: 1;
 }
 
 
-#contactSection {
+#contatos {
     background-color: #E0385A;
     display: flex;
 
