@@ -2,6 +2,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     height: 100vh;
 }
@@ -40,6 +44,28 @@ nav {
         padding-left: 73px;
     }
 }
+
+#navBarLinks li a:hover {
+    background-color: #E0B7B188;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 0.3s;
+    animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+   
+    50% {
+      background-position: 100% 50%;
+    }
+   
+    100% {
+      background-position: 0% 50%;
+    }
+   }
 
 #home {
     display: flex;
